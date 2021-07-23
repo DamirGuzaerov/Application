@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Authorization</string>
+    <string name="emailError">Mail is invalid or empty</string>
+    <string name="passwordError">Password must be at least 6 characters long, contain at least one number and a capital letter</string>
+    <string name="user_not_found">The user is not registered</string>
+    <string name="auth_completed">Welcome!</string>
+    <string name="pass_wrong">Wrong Password</string>
+    <string name="login">Login</string>
+    <string name="exit">Exit</string>
+</resources>
