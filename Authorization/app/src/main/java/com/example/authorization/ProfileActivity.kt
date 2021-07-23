@@ -34,14 +34,4 @@ class ProfileActivity: AppCompatActivity() {
         startActivity(intent)
         finish()
     }
-
-    override fun onStop() {
-        Log.d("aaaa","aaaaaaaaaaaaaaa")
-        super.onStop()
-    }
-
-    override fun onDestroy() {
-        Log.d("bbbbb","bbbbbbbbbbbbbb")
-        super.onDestroy()
-    }
 }

@@ -108,10 +108,6 @@ class MainActivity : AppCompatActivity() {
         return !TextUtils.isEmpty(target) && Patterns.EMAIL_ADDRESS.matcher(target).matches()
     }
 
-    private fun isValidPassword(target: CharSequence):Boolean{
-        return !TextUtils.isEmpty(target)
-    }
-
     private fun showMessage(message: Int){
         Toast.makeText(applicationContext, message, Toast.LENGTH_SHORT)
             .show()
